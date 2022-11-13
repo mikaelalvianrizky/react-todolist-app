@@ -1,0 +1,48 @@
+.Modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Modal-Box {
+    width: 30%;
+    height: 7rem;
+    background-color: #ffff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 35px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    animation-name: show;
+    animation-duration: 0.5s;
+}
+
+.Modal-Box h2 {
+    color: #2DA4FB;
+}
+
+.Modal-Input {
+    width: 100%;
+    margin: 0.8rem 0;
+}
+
+.Modal-btn-group {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.Modal-Input input {
+    width: 70%;
+}
+
+@keyframes show {
+    from {
+        top: -100px;
+    } to {
+        transform: translate(-50%, -50%)
+    }
+}

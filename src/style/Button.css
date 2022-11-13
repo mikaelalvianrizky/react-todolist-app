@@ -1,0 +1,31 @@
+.btn {
+    width: 5rem;
+    height: 1.7rem;
+    margin: 0 0.2rem;
+    border: none;
+    color: #ffff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-primary {
+    background: #0275d8;
+}
+
+.btn-secondary {
+    background: #737373;
+}
+
+.btn-success {
+    background: #5cb85c;
+}
+
+.btn-warning {
+    background: #f0ad4e;
+}
+
+.btn-danger {
+    background: #d9534f;
+}

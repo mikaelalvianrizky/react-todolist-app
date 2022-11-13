@@ -1,0 +1,19 @@
+.Form {
+    background: #FFFF;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.Form-Input {
+    width: 70%;
+    border: none;
+}
+
+.Form-Input:focus {
+    outline: none;
+}

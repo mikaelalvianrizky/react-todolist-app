@@ -1,0 +1,11 @@
+.Item {
+    background: #2DA4F8;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+

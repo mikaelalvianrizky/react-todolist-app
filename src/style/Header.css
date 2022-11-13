@@ -1,0 +1,12 @@
+.Header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Header img {
+    width: 50%;
+}
+
+.Header h1 {
+    color: #2DA4F8;
+}
